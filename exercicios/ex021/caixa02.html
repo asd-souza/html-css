@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(100, 194, 237);
+            margin: 0px;
+        }
+
+        header {
+ 
+        }
+
+        nav {
+            background-color: rgba(35, 70, 70, 0.671);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+        }
+
+        nav > a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin: 10px;
+            margin-right: 40px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        article > aside {
+            background-color: rgba(42, 83, 83, 0.671);            
+        }
+
+        .noticia {
+            text-indent: 30px;
+        }
+
+        .autor {
+            color: white;
+            margin: 10px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+        footer {
+            background-color: rgb(60, 115, 141);
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <header>        
+        <h1>Meu site</h1>
+
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>                
+                    <h2>Notícia sobre o Brasil</h2>
+                        <p class="noticia">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolore qui temporibus quos quibusdam minima dolores harum consectetur, vero praesentium assumenda aliquam delectus tempora necessitatibus aperiam optio officiis molestias esse.</p>
+                    <aside>
+                        <p class="autor">Artigo escrito por José Delfino de Souza</p>
+                    </aside>
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por A2S</p>
+    </footer>
+
+</body>
+</html>
